@@ -1,0 +1,34 @@
+:root {
+  --blue:#96c5f5;
+  --light-bg: #fff;
+  --gray: #dfe6e9;
+}
+
+html {
+  text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  /*  for firefox */
+  scrollbar-color: var(--blue) transparent;
+  scrollbar-width: thin;
+  overflow: overlay;
+  scroll-behavior: unset;
+  font-variant-numeric: tabular-nums;
+  font-display: swap;
+  font-size: 14px;
+}
+
+@media (max-width: 799px) {
+  body {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+}
+
+figure {
+  width: 100%;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
